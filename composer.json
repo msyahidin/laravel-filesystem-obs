@@ -12,8 +12,14 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "minz/huaweicloud-sdk-php-obs": "^3.20.6"
+        "minz/huaweicloud-sdk-php-obs": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/msyahidin/huaweicloud-sdk-php-obs"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Minz\\Obs\\": "src"
