@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "minz/huaweicloud-sdk-php-obs": "dev-master"
+        "msyahidin/huaweicloud-sdk-php-obs": "dev-master"
     },
     "repositories": [
         {
